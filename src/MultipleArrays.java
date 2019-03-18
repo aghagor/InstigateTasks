@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Example27 {
+public class MultipleArrays {
     static int[] firstArray = {1, 12, 75, 6};
     static int[] secondArray = {5, 4, 0, -8};
     static int[] multipliedArray = new int[4];

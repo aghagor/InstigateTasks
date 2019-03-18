@@ -1,4 +1,4 @@
-public class Example23 {
+public class PrimeNumber {
     public static void main(String[] args) {
         int sum =1;
         int counter = 0;
