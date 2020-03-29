@@ -1,4 +1,4 @@
-package data_structurs.arrayList;
+package data_structurs.stack;
 
 public class Stack {
 
