@@ -1,3 +1,4 @@
+package data_structurs;
 
 public class Sort {
     private void swap(int[] array, int index1, int index2) {
@@ -7,7 +8,7 @@ public class Sort {
     }
 
     public void quickSort(int[] array, int low, int high) {
-        if (low < high ) {
+        if (low < high) {
             int p = partition(array, low, high);
             quickSort(array, low, p - 1);
             quickSort(array, p + 1, high);
@@ -16,15 +17,15 @@ public class Sort {
 
     private int partition(int[] array, int low, int high) {
         int pivot = array[high];
-        int border = low-1;
-        for(int j = low;j<high;j++){
-            if (array[j]<=pivot){
+        int border = low - 1;
+        for (int j = low; j < high; j++) {
+            if (array[j] <= pivot) {
                 border++;
-                swap(array,border,j);
+                swap(array, border, j);
             }
         }
-        swap(array,border+1,high);
-        return border+1;
+        swap(array, border + 1, high);
+        return border + 1;
     }
 
     public void mergeSort(int[] array, int low, int high) {
