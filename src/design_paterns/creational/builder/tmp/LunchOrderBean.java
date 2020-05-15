@@ -1,4 +1,4 @@
-package design_paterns.creational.builder;
+package design_paterns.creational.builder.tmp;
 
 public class LunchOrderBean {
     private String bread;
@@ -7,7 +7,6 @@ public class LunchOrderBean {
     private String meat;
 
     public LunchOrderBean(){
-
     }
 
     public String getBread() {

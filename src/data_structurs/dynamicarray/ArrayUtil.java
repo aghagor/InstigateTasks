@@ -1,4 +1,4 @@
-package gorAghajanyan.dynamicarray;
+package data_structurs.dynamicarray;
 
 import java.util.Random;
 
